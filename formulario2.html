@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+<html>
+<title>Formulario</title>
+<body>
+<form method="post" action="http://formadorestic.com/alumnosasir2/procesaformulario_usuario.php">
+<table border="1">
+<tr>
+<td colspan="2">User From</td>
+</tr>
+<tr>
+<td><label for="nombre">Enter name</label></td>
+<td><input type="text" name="nombre"></td>
+</tr>
+<tr>
+<td><label for="password">Enter password</label></td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td><label for="direccion">Enter Address</label></td>
+<td><textarea id="w3review" name="direccion"rows="5"cols="40"></textarea></td>
+</tr>
+<tr>
+<td><p>Select game</p></td>
+<td>
+<input type="checkbox" id="Hockey" name="deportes">
+<label for="deportes">Hockey</label>
+<input type="checkbox" id="Football" name="deportes">
+<label for="deportes">Football</label>
+<input type="checkbox" id="Badminton" name="deportes">
+<label for="deportes">Badminton</label>
+<input type="checkbox" id="Cricket" name="deportes">
+<label for="deportest">Cricket</label>
+<input type="checkbox" id="Volleyball" name="deportes">
+<label for="deportes">Volleyball</label>
+</td>
+</tr>
+<tr>
+<td><p>Gender</p></td>
+<td>
+<input type="radio" id="male" name="Sexo" placeholder="Male">
+<label for="Sexo">Male</label>
+<input type="radio" id="Female" name="Sexo" placeholder="Female">
+<label for="Sexo">Female</label>
+</td>
+</tr>
+<tr>
+<td><p>Select your age</p></td>
+<td><label for="edad"></label>
+<select name="edad" id="edad">
+<option value="edad"selected>select</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="+21">+21</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="examinar">Select a file</label></td>
+<td><input type="file" id="examinar" name="examinar"></input></td>
+</tr>
+<tr>
+<td colspan="2">
+<button type="button"onclick="alert('viva la patria')">Click me</button>
+<input type="reset" value="reset">
+<input type="submit" value="sumid">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html> 
